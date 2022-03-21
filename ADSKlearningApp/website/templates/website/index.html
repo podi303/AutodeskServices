@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Welcome{% endblock %}
+
+{% block content %}
+<h2 align="center">Autodesk Learning Review</h2>
+<h4> Items in the list:</h4>
+<ul>
+    {% for x in items %}
+        <li>
+            <a href="{% url 'detail' x.id %}">
+                {{x.name}}
+            </a>
+        </li>
+    {% endfor %}
+</ul>
+<br>
+<a href="{% url 'type_pg' %}"> View all resource types </a>
+<p>   </p>
+<hr>
+<a href="{% url 'new_item' %}"> Add new learning resource </a>
+{% endblock %}

@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %}Resource: {{item.name}}{% endblock %}
+
+{% block content %}
+<p> {{item.name}} is a {{item.res_type}}, it starts on {{item.date}}, and it will take place in {{item.location}}</p>
+<br>
+<a href="{% url 'index' %}"> Main Page </a>
+{% endblock %}

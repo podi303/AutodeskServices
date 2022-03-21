@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Resource types{% endblock %}
+
+{% block content %}
+<h4> Resource types:</h4>
+{% for x in type %}
+<li>
+    {{x}}
+</li>
+{% endfor %}
+<br>
+<a href="{% url 'index' %}"> Main Page </a>
+{% endblock %}
