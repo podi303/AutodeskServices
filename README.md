@@ -16,6 +16,9 @@ First of all, go to "Extensions" (Ctrl+Shift+X) and for Python support you shoul
 > python manage.py runserver  - *this command starts the server - http://127.0.0.1:8000/*
 
 commands related to database:
-> python manage.py showmigrations 
-> python manage.py makemigrations 
-> python manage.py migrate  
+* > python manage.py showmigrations
+
+* > python manage.py makemigrations
+
+* > python manage.py migrate
+  
