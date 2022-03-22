@@ -13,9 +13,9 @@ First of all, go to "Extensions" (Ctrl+Shift+X) and for Python support you shoul
 
 #### Basic commands to make the app work (navigate to the folder where you can find manage.py and):
 
-- * python manage.py runserver * - *this command starts the server - http://127.0.0.1:8000/*
+> python manage.py runserver  - *this command starts the server - http://127.0.0.1:8000/*
 
 commands related to database:
-- * python manage.py showmigrations *
-- * python manage.py makemigrations *
-- * python manage.py migrate * 
+> python manage.py showmigrations 
+> python manage.py makemigrations 
+> python manage.py migrate  
